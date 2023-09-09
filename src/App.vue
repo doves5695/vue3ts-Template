@@ -5,12 +5,10 @@
 </template>
 
 <script setup lang="ts">
-const fun = () =>
-{
-  console.log('12');
+const fun = () => {
+  console.log('12')
 }
-fun
-();
+fun()
 </script>
 
 <style scoped lang="scss">
