@@ -1,23 +1,20 @@
 <template>
-  <div class="box">
-    <h1>我是APP</h1>
-  </div>
+     <div>
+      <h1>测试</h1>
+    </div>
 </template>
 
-<script setup lang="ts">
-const fun = () => {
-  console.log('12')
-}
-fun()
+<script setup lang='ts'>
+
 </script>
 
-<style scoped lang="scss">
-.box {
-  widows: 600px;
-  height: 400px;
-  background-color: red;
+<style scoped lang='scss'>
+div {
+  width: 100px;
+  height: 100px;
+  border: 1px solid black;
   h1 {
-    color: green;
+    color: $color;
   }
 }
 </style>
